@@ -30,6 +30,7 @@ nav{
     justify-content: space-between;
     padding: 0vw 10vw;
     position: fixed;
+    z-index: 99;
 }
 nav a{
  text-decoration: none;
@@ -107,12 +108,12 @@ nav i{
 .left-two,.rght-two{
     width: 50%;
     display: flex;
-    
+    gap: 5vh;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    background-color: rgb(130, 38, 7);
+    background-color: #4d231c;
 }
 .left-two svg{
     /* background-color: rgb(226, 48, 3);
@@ -120,4 +121,61 @@ nav i{
      transform: rotateX(50deg);
      width: 90%;
      margin-top: 50vh;
+}
+.rght-two h1{
+    color: #fff;
+    font-size: 5vw;
+}
+.rght-two p{
+    color: #fff;
+    font-size: 1vw;
+}
+.three{
+    width: 100%;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: #4d231c;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    border-radius: 20px;
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: #fff;
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 40vh;
+}
+.card button{
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    gap: 2vh;
+}
+#cola{
+    position: absolute;
+    width: 13%;
+    top: 15%;    
+}
+#pepsi{
+    position: absolute;
+    width: 20%;
+    top: 12%;
+}
+.lemon{
+    width: 25vw;
+    position: absolute;
+    top: 0%;
 }
