@@ -1,7 +1,16 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(/fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: Product Sans B;
+    src: url(/fonts/Product\ Sans\ Bold.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Product Sans;
 }
 html,body{
     height: 100%;
@@ -22,5 +31,10 @@ nav{
     padding: 0vw 10vw;
 }
 nav a{
-    
+ text-decoration: none;
+
+}
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
 }
