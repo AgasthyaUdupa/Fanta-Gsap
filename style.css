@@ -107,7 +107,8 @@ nav i{
 .left-two,.rght-two{
     width: 50%;
     display: flex;
-    align-items: center;
+    
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     height: 100%;
@@ -117,6 +118,6 @@ nav i{
     /* background-color: rgb(226, 48, 3);
      */
      transform: rotateX(50deg);
-     width: 70%;
+     width: 90%;
      margin-top: 50vh;
 }
