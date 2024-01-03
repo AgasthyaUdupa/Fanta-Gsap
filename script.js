@@ -20,9 +20,9 @@ tl.to('#orange',{
     right:'10%',
 },'orange')
 tl.to('#leaf',{
-    top:'110%',
+    top:'100%',
     rotate:'150deg',
-    left:'80%'
+    left:'70%'
 },'orange')
 tl.to('#leaf2',{
     top:'110%',
@@ -36,14 +36,32 @@ var tl2 = gsap.timeline({scrollTrigger:{
     scrub:true,
     // markers:true,
 }})
-tl2.from('.lemon1',{
+tl2.from('.lemon',{
     rotate:'-90deg',
     // left:'-50%',
     top:'110%',
-})
+},'coke')
 tl2.from('#cola',{
     rotate:'-90deg',
     // left:'0%',
     // right:"-100%",
-    top:'110%',
-})
+    top:'90%',
+},'pepsi')
+tl2.from('#pepsi',{
+    rotate:'90deg',
+    // left:'0%',
+    // right:"-100%",
+    top:'80%',
+},'pepsi')
+tl2.to('#orange-cut',{
+    left:'41%',
+    width:'20%',
+    // right:"-100%",
+    top:'205%',
+},'coke')
+tl2.to('#fanta',{
+    left:'34%',
+    width:"33%",
+    // right:"-100%",
+    top:'215%',
+},'coke')
