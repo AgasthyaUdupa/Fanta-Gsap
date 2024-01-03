@@ -107,7 +107,7 @@ nav i{
 #leaf3{
     position: absolute;
     top: 10%;
-    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
+    /* transition: all cubic-bezier(0.19,1,0.22,1)0.5s; */
     right: 0%;
     width: 20%;
 }
@@ -173,15 +173,20 @@ nav i{
 #cola{
     position: absolute;
     width: 13%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
     top: 15%;    
 }
 #pepsi{
     position: absolute;
     width: 20%;
     top: 12%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
 }
 .lemon{
     width: 25vw;
     position: absolute;
     top: 0%;
+}
+.btn{
+    cursor: pointer;
 }
