@@ -56,10 +56,12 @@ nav i{
 #fanta{
     width: 40%;
     z-index: 2;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
     position: absolute;
 }
 #orange-cut{
     width: 15%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
     position: absolute;
     top: 10%;
     left: 32%;
@@ -71,6 +73,7 @@ nav i{
     z-index: 3;
     top: 50%;
     right: 30%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
 
 }
 .one h1{
@@ -87,6 +90,7 @@ nav i{
 #leaf{
     top: 10%;
     left: 0%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
     transform: rotate(60deg);
     position: absolute;
     width: 18%;
@@ -95,6 +99,7 @@ nav i{
 #leaf2{
     top: 70%;
     left: 80%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
     transform: rotate(-90deg);
     position: absolute;
     width: 12%;
@@ -102,6 +107,7 @@ nav i{
 #leaf3{
     position: absolute;
     top: 10%;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
     right: 0%;
     width: 20%;
 }
